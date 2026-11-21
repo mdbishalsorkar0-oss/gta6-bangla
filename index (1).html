@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 বাংলা গাইড: রিলিজ, কন্ট্রোল, সেটিংস</title>
+<meta name="description" content="GTA 6 নিয়ে সহজ বাংলায় গাইড: রিলিজ ডেট, প্ল্যাটফর্ম, দাম, কন্ট্রোল, সেটিংস ও সেভ সিস্টেম।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef5f3; --surface:#ffffff; --ink:#12262f; --muted:#4d6770;
+  --line:#cfe0dc; --head:#0f3040; --head-ink:#f4fbf9; --accent:#e4455f; --accent-ink:#ffffff; --ok:#1b7f5c;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0d1d25; --surface:#142a35; --ink:#e6f1ef; --muted:#9db6bd; --line:#26424e; --head:#091820; --head-ink:#f4fbf9; --accent:#ff6b82; --accent-ink:#1a0a0e; --ok:#52c9a0; }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hind Siliguri","Noto Sans Bengali","Kalpurush",system-ui,sans-serif;line-height:1.75;font-size:17px}
+a{color:var(--accent)}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+header.hero{background:var(--head);color:var(--head-ink);padding:44px 0 34px}
+header.hero h1{margin:0 0 8px;font-size:clamp(30px,8vw,48px);line-height:1.2;font-weight:700}
+header.hero p{margin:0;max-width:34em;color:#c5dcd8}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:26px}
+.fact{border:1px solid #2c5566;border-radius:10px;padding:10px 14px}
+.fact b{display:block;font-size:20px;color:#fff}
+.fact span{font-size:14px;color:#a9c7c2}
+nav{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0)}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;font-size:15px}
+nav a:hover,nav a:focus-visible{background:var(--accent);color:var(--accent-ink);outline:none}
+section{padding:30px 0 6px}
+h2{font-size:26px;margin:0 0 12px;line-height:1.3}
+details{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:0}
+summary{cursor:pointer;padding:12px 16px;font-weight:700;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--accent);font-size:22px;line-height:1}
+details[open] summary::after{content:"\2212"}
+details .body{padding:0 16px 14px}
+summary:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.note{background:var(--surface);border-left:4px solid var(--accent);padding:10px 14px;border-radius:0 8px 8px 0;margin:14px 0}
+.warn{border-left-color:#d98a00}
+ul.check{list-style:none;padding:0;margin:10px 0}
+ul.check li{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:8px 0}
+ul.check label{display:flex;gap:12px;padding:12px 14px;cursor:pointer;align-items:flex-start}
+ul.check input{margin-top:7px;width:20px;height:20px;accent-color:var(--ok);flex:none}
+ul.check small{display:block;color:var(--muted);font-size:15px;line-height:1.55}
+ul.check input:checked + span strong{text-decoration:line-through;color:var(--muted)}
+.progress{font-size:15px;color:var(--muted);margin:4px 0 0}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{width:38%;font-weight:500;color:var(--muted)}
+.scroll{overflow-x:auto}
+footer{margin-top:44px;padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>GTA 6 বাংলা গাইড</h1>
+    <p>Grand Theft Auto VI নিয়ে দরকারি সব কথা সহজ বাংলায়: কীভাবে পাবে, কীভাবে খেলবে, কোন সেটিং বদলাবে।</p>
+    <div class="facts">
+      <div class="fact"><b>১৯ নভেম্বর ২০২৬</b><span>রিলিজ ডেট</span></div>
+      <div class="fact"><b>PS5, Xbox Series X|S</b><span>প্ল্যাটফর্ম</span></div>
+      <div class="fact"><b>$৭৯.৯৯ থেকে</b><span>দাম (US)</span></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="সূচি">
+  <div class="wrap">
+    <a href="#shuru">শুরু</a>
+    <a href="#lonch">কে বানাল, লঞ্চ রেকর্ড</a>
+    <a href="#kibhabe-khelbe">কীভাবে খেলবে</a>
+    <a href="#control">কন্ট্রোল</a>
+    <a href="#setting">সেটিংস</a>
+    <a href="#save">সেভ</a>
+    <a href="#prosno">প্রশ্নোত্তর</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="shuru">
+  <h2>GTA 6 কী</h2>
+  <p>GTA 6 হলো Rockstar Games-এর ওপেন-ওয়ার্ল্ড অ্যাকশন গেম। গল্প হয় লিওনিডা রাজ্যে, যার মূল শহর ভাইস সিটি। মূল দুই চরিত্র লুসিয়া আর জেসন।</p>
+  <div class="scroll">
+  <table>
+    <tr><th>রিলিজ</th><td>১৯ নভেম্বর ২০২৬ (কনসোল)</td></tr>
+    <tr><th>প্ল্যাটফর্ম</th><td>PlayStation 5, Xbox Series X|S</td></tr>
+    <tr><th>PC</th><td>এখনো অফিসিয়াল তারিখ ঘোষণা হয়নি</td></tr>
+    <tr><th>দাম (US)</th><td>Standard $৭৯.৯৯, Ultimate $৯৯.৯৯</td></tr>
+    <tr><th>বয়সসীমা</th><td>ESRB: M (১৭+)। শুধু প্রাপ্তবয়স্কদের জন্য।</td></tr>
+    <tr><th>GTA 6 Online</th><td>অফিসিয়াল তারিখ নেই; রিপোর্ট অনুযায়ী ২০২৭ সালে আসতে পারে</td></tr>
+  </table>
+  </div>
+</section>
+
+<section id="lonch">
+  <h2>কে বানিয়েছে</h2>
+  <p>GTA 6 বানিয়েছে <strong>Rockstar Games</strong>। গেমটি প্রকাশ করেছে তাদের মূল প্রতিষ্ঠান <strong>Take-Two Interactive</strong>। Rockstar-এর প্রেসিডেন্ট ও প্রতিষ্ঠাতা Sam Houser। একটি রিপোর্ট অনুযায়ী এক দশকের বেশি সময় ধরে প্রায় ১.৫ বিলিয়ন ডলার খরচ করে গেমটি বানানো হয়েছে (এটি অফিসিয়াল হিসাব নয়)।</p>
+
+  <h2>লঞ্চের প্রথম দিনের রেকর্ড</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>অফিসিয়াল আয়</th><td>প্রি-অর্ডার ও প্রথম দিন মিলিয়ে $৩.৭৯ বিলিয়ন। Take-Two একে ইতিহাসের সবচেয়ে বড় এন্টারটেইনমেন্ট লঞ্চ বলেছে।</td></tr>
+    <tr><th>মেটাক্রিটিক স্কোর</th><td>৯৯, যা সর্বকালের সর্বোচ্চ রেটিংপ্রাপ্ত গেমের সমান</td></tr>
+    <tr><th>কপি বিক্রি</th><td>অফিসিয়াল সংখ্যা প্রকাশ হয়নি। Sensor Tower-এর অনুমান: লঞ্চের সকাল পর্যন্ত প্রায় ১.৯ কোটি কপি, যার প্রায় ৭৫% PlayStation-এ।</td></tr>
+    <tr><th>তুলনা: GTA 5</th><td>২০১৩ সালে প্রথম ২৪ ঘণ্টায় ১.১২ কোটি কপি, আয় প্রায় $৮১৫ মিলিয়ন</td></tr>
+  </table>
+  </div>
+  <div class="note">
+    <strong>কত মানুষ খেলছে?</strong> Rockstar এখনো লাইভ প্লেয়ার সংখ্যা প্রকাশ করেনি। কনসোল গেমের ক্ষেত্রে এটা সাধারণত প্রকাশ করা হয় না। তাই "আজ কত মানুষ খেলছে" এই প্রশ্নের নির্ভরযোগ্য সংখ্যা এখন পাওয়া যায় না। বিক্রির সংখ্যা ও আয় থেকেই আন্দাজ করতে হয়। Sensor Tower-এর সংখ্যাগুলো অনুমান, অফিসিয়াল নয়।
+  </div>
+  <p>সময় অঞ্চলের কারণে অস্ট্রেলিয়া ও নিউজিল্যান্ডের খেলোয়াড়রা সবার আগে গেমটি খেলার সুযোগ পেয়েছে। এই পাতার সংখ্যাগুলো ২১ নভেম্বর ২০২৬ পর্যন্ত, নতুন অফিসিয়াল ঘোষণা এলে বদলাবে।</p>
+</section>
+
+<section id="kibhabe-khelbe">
+  <h2>কীভাবে খেলবে</h2>
+  <details open>
+    <summary>কোন ডিভাইসে খেলা যাবে</summary>
+    <div class="body">
+      <p>অফিসিয়ালি শুধু PS5 আর Xbox Series X|S-এ। মোবাইল বা পুরোনো কনসোল (PS4, Xbox One) নিয়ে কোনো অফিসিয়াল ঘোষণা নেই। PC ভার্সন পরে আসবে বলে ধারণা করা হচ্ছে, কিন্তু Rockstar এখনো তারিখ দেয়নি।</p>
+    </div>
+  </details>
+  <details>
+    <summary>গেম কোথা থেকে কিনবে</summary>
+    <div class="body">
+      <p>PlayStation Store বা Xbox Store থেকে, অথবা অনুমোদিত দোকান থেকে। লঞ্চের সময় ডিজিটাল ও ডিস্ক নিয়ে সর্বশেষ তথ্য Rockstar-এর অফিসিয়াল সাইটে দেখে নাও।</p>
+    </div>
+  </details>
+  <div class="note warn">
+    <strong>সাবধান:</strong> "GTA 6 APK", "GTA 6 PC ফ্রি ডাউনলোড" বা "GTA 6 মোবাইল" লিখে যেসব ফাইল ছড়াচ্ছে, সেগুলো প্রায় নিশ্চিতভাবে ভুয়া। এতে ভাইরাস থাকতে পারে, ফোন বা অ্যাকাউন্টের তথ্য চুরি হতে পারে। শুধু অফিসিয়াল স্টোর থেকে কেনো।
+  </div>
+</section>
+
+<section id="control">
+  <h2>কন্ট্রোল</h2>
+  <details open>
+    <summary>Default আর Classic স্কিম</summary>
+    <div class="body">
+      <p>GTA 6-এ ডিফল্ট কন্ট্রোলে দৌড় (sprint) দেওয়া হয়েছে বাম স্টিক চেপে, অর্থাৎ L3 বোতামে। আগের গেমের মতো বারবার বোতাম চাপতে হয় না। যারা পুরোনো GTA-র লেআউটে অভ্যস্ত, তাদের জন্য সেটিংসে Classic স্কিম আছে।</p>
+    </div>
+  </details>
+  <details>
+    <summary>এইম ও অ্যাসিস্ট</summary>
+    <div class="body">
+      <p>কন্ট্রোলার সেটিংসে মূলত এইমিং আর অ্যাসিস্ট নিয়ে বদল করা যায়। শুরুতে ডিফল্ট রেখে খেলো, অসুবিধা হলে একটা একটা করে বদলাও। একসাথে সব বদলালে কোনটা কাজ করল বোঝা যায় না।</p>
+    </div>
+  </details>
+  <details>
+    <summary>ডিভাইসভিত্তিক পুরো কন্ট্রোল চার্ট</summary>
+    <div class="body">
+      <p>পুরো বোতাম-তালিকা (হাঁটা, গাড়ি, বিমান ইত্যাদি) এই সাইটে ধীরে ধীরে যোগ হবে। এর মধ্যে গেমের Pause মেনু থেকে Settings → Controls-এ গিয়ে নিজের কনসোলের সঠিক লেআউট দেখে নিতে পারো।</p>
+    </div>
+  </details>
+</section>
+
+<section id="setting">
+  <h2>খেলার আগে যে সেটিংস দেখবে</h2>
+  <p>গেম শুরু করে Pause চেপে Settings-এ ঢোকো। নিচের তালিকা ধরে একটা একটা দেখে টিক দাও। তোমার টিক এই ফোনেই সেভ থাকবে।</p>
+  <ul class="check" id="checklist">
+    <li><label><input type="checkbox" data-k="sub"><span><strong>সাবটাইটেল</strong><small>চালু করো আর সাইজ নিজের পছন্দমতো বড় করো। কাটসিন ও কথোপকথন ভালো বোঝা যাবে।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="map"><span><strong>মিনিম্যাপ ও HUD</strong><small>পথ চেনা সহজ করতে মিনিম্যাপ দৃশ্যমান রাখো। অপ্রয়োজনীয় কিছু বন্ধ করলে স্ক্রিন পরিষ্কার লাগবে।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="cam"><span><strong>ক্যামেরা: মোশন ব্লার ও ক্যামেরা বব</strong><small>চোখ ক্লান্ত হলে বা মাথা ঘুরলে এগুলো কমাও।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="cine"><span><strong>সিনেমাটিক কিল ও ক্র্যাশ ক্যাম</strong><small>খেলার গতি আটকে গেলে এগুলো কমিয়ে দিতে পারো।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="aim"><span><strong>এইম অ্যাসিস্ট</strong><small>নতুনদের জন্য সহায়তা রাখা ভালো। অভ্যস্ত হলে কমিয়ে নিজের মতো কন্ট্রোল করো।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="hdr"><span><strong>HDR ক্যালিব্রেশন</strong><small>তোমার টিভি HDR সাপোর্ট করলে প্রথমে কনসোলের HDR ক্যালিব্রেশন করো, তারপর গেমের সেটিং মেলাও।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="aud"><span><strong>অডিও</strong><small>হেডফোন বা স্পিকার অনুযায়ী ভলিউম মেলাও। PS5-এ Tempest 3D Audio সাপোর্ট আছে বলে রিপোর্ট আছে।</small></span></label></li>
+    <li><label><input type="checkbox" data-k="trig"><span><strong>ট্রিগার ইফেক্ট (PS5)</strong><small>গুলির সময় আঙুলে চাপ লাগলে ট্রিগারের তীব্রতা কমাও।</small></span></label></li>
+  </ul>
+  <p class="progress" id="progress" aria-live="polite"></p>
+  <div class="note">গ্রাফিক্স মোড নিয়ে লঞ্চের সময়ের রিপোর্ট: কনসোলে আলাদা গ্রাফিক্স মোড বা অফিসিয়াল ৬০ FPS মোডের ঘোষণা পাওয়া যায়নি। কোনো আপডেট এলে সেটা এখানে জানানো হবে।</div>
+</section>
+
+<section id="save">
+  <h2>সেভ সিস্টেম</h2>
+  <p>রিপোর্ট অনুযায়ী গেমে অটোসেভের পাশাপাশি ১৫টি ম্যানুয়াল সেভ স্লট আছে। বড় মিশনের আগে বা সেটিংস ঠিক করার পর নিজে একটা ম্যানুয়াল সেভ করে রাখা ভালো অভ্যাস।</p>
+</section>
+
+<section id="prosno">
+  <h2>প্রশ্নোত্তর</h2>
+  <details>
+    <summary>GTA 6 কি ফোনে খেলা যাবে?</summary>
+    <div class="body"><p>অফিসিয়ালি না। শুধু PS5 আর Xbox Series X|S ঘোষণা করা হয়েছে।</p></div>
+  </details>
+  <details>
+    <summary>PC-তে কবে আসবে?</summary>
+    <div class="body"><p>Rockstar এখনো কোনো তারিখ দেয়নি। কিছু রিপোর্টে ২০২৭ সালের কথা বলা হচ্ছে, কিন্তু সেটা নিশ্চিত নয়।</p></div>
+  </details>
+  <details>
+    <summary>অনলাইন মোড কবে?</summary>
+    <div class="body"><p>GTA 6 Online-এর অফিসিয়াল তারিখ নেই। রিপোর্ট অনুযায়ী ২০২৭ সালে আসার সম্ভাবনা আছে।</p></div>
+  </details>
+  <details>
+    <summary>বাচ্চারা খেলতে পারবে?</summary>
+    <div class="body"><p>গেমটির রেটিং M (১৭+)। এতে প্রাপ্তবয়স্ক বিষয়বস্তু আছে, তাই ছোটদের জন্য নয়।</p></div>
+  </details>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>এটি একটি ফ্যান-তৈরি তথ্যসাইট। Rockstar Games বা Take-Two Interactive-এর সাথে এর কোনো সম্পর্ক নেই। Grand Theft Auto ও সংশ্লিষ্ট নাম তাদের নিজ নিজ মালিকের।</p>
+    <p>তথ্য ২১ নভেম্বর ২০২৬ পর্যন্ত। সঠিক ও সর্বশেষ তথ্যের জন্য Rockstar Games-এর অফিসিয়াল সাইট দেখুন।</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var boxes = document.querySelectorAll('#checklist input');
+  var out = document.getElementById('progress');
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem('gta6-checks') || '{}'); } catch(e) { saved = {}; }
+  function update(){
+    var n = 0;
+    boxes.forEach(function(b){ if(b.checked) n++; });
+    out.textContent = n + '/' + boxes.length + ' টি দেখা হয়েছে';
+  }
+  boxes.forEach(function(b){
+    b.checked = !!saved[b.dataset.k];
+    b.addEventListener('change', function(){
+      saved[b.dataset.k] = b.checked;
+      try { localStorage.setItem('gta6-checks', JSON.stringify(saved)); } catch(e) {}
+      update();
+    });
+  });
+  update();
+})();
+</script>
+</body>
+</html>
